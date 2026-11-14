@@ -2,27 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment | FXPRAY</title>
+    <title>Secure Payment | FXPRAY</title>
     <style>
-        body { background: #e8e4e1; color: #2c2c2c; font-family: 'Inter', sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center; margin: 0;}
-        .container { max-width: 320px; width: 90%; }
-        .box { border: 1px solid #b0a79d; padding: 30px; }
-        h2 { font-family: 'Playfair Display', serif; font-size: 18px; margin-bottom: 25px; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        body { background: #e8e4e1; color: #2c2c2c; font-family: 'Inter', sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; animation: fadeIn 1.5s ease; }
+        .box { border: 1px solid #b0a79d; padding: 40px; text-align: center; max-width: 320px; width: 85%; }
+        h2 { font-family: 'Playfair Display', serif; font-size: 18px; margin-bottom: 20px; }
         .label { font-size: 9px; letter-spacing: 2px; color: #7a7a7a; margin-bottom: 5px; }
-        .val { font-size: 16px; margin-bottom: 30px; font-weight: 600; letter-spacing: 1px; }
-        .btn { display: block; padding: 12px; background: #b0a79d; color: #fff; text-decoration: none; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; }
+        .val { font-size: 15px; margin-bottom: 30px; font-weight: 600; letter-spacing: 0.5px; }
+        .btn { display: block; padding: 15px; background: #b0a79d; color: #fff; text-decoration: none; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; transition: 0.3s; }
+        .btn:hover { background: #8e857c; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="box">
-            <h2>PROCEED WITH PAYMENT</h2>
-            <div class="label">UPI ID</div>
-            <div class="val">prayagrajtrivedi199-1@okhdfcbank</div> <!-- EDIT THIS -->
-            <p style="font-size: 11px; margin-bottom: 20px;">Pay the fee, then click below to send your payment screenshot to me.</p>
-            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Send Screenshot on WhatsApp +91 9157491112</a> <!-- EDIT THIS -->
-        </div>
+    <div class="box">
+        <h2>SECURE ACCESS</h2>
+        <div class="label">PAY UPI ID</div>
+        <div class="val">prayagrajtrivedi199-1@okhdfcbank</div>
+        <p style="font-size: 11px; color: #7a7a7a; margin-bottom: 25px;">Pay the fee first, then tap below to send your payment screenshot for verification.</p>
+        <a href="https://wa.me/919157491112?text=Hi,%20I%20have%20completed%20the%20payment%20for%20the%20mentorship.%20Here%20is%20my%20screenshot." class="btn">Verify Payment on WhatsApp</a>
     </div>
 </body>
 </html>
